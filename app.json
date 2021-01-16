@@ -1,0 +1,46 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/yuyue/index",
+    "pages/mine/mine",
+    "more/index",
+    "pages/run/run"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "教室预约",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#e81717",
+    "list": [
+      {
+      "pagePath":"pages/index/index",
+      "text": "首页",
+      "iconPath": "icons/index.png",
+      "selectedIconPath": "icons/selected_index.png"
+    },
+    {
+      "pagePath": "pages/yuyue/index",
+      "text": "预约",
+      "iconPath": "icons/yuyue.png",
+      "selectedIconPath": "icons/selected_yuyue.png"
+    },
+    {
+      "pagePath": "pages/mine/mine",
+      "text": "我的",
+      "iconPath": "icons/mine.png",
+      "selectedIconPath": "icons/selected_mine.png"
+    }
+  ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示" 
+    }
+  }
+}
